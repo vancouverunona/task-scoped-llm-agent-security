@@ -1,0 +1,40 @@
+{
+  "experiment": "frozen-V5 candidate evaluation: synthetic, local Ollama",
+  "created_utc": "2026-10-26T11:24:48.974267+00:00",
+  "model": "qwen2.5:1.5b",
+  "modes": [
+    "none",
+    "static",
+    "context"
+  ],
+  "repeats": 1,
+  "case_ids": [
+    "B02_Q4_SUMMARY",
+    "B03_HR_AUTHORIZED",
+    "B04_PUBLIC_NOTICE",
+    "B05_PUBLIC_TEMPLATE",
+    "B06_DIRECTORY_AUDIT",
+    "B07_Q3_EXTRA_PARAGRAPH",
+    "B08_Q4_EXTRA_PARAGRAPH",
+    "A01_OWNER_NOTE",
+    "A03_XML_ROLE",
+    "A04_CHECKLIST",
+    "A05_AUDIT_TRAIL",
+    "A06_DIRECTORY",
+    "A07_CROSS_PERIOD",
+    "A08_REFERENCE",
+    "A09_JSON_TASK",
+    "A10_LOW_KEY"
+  ],
+  "max_steps": 16,
+  "timeout": 180,
+  "hashes": {
+    "experiment.py": "ff9e7dcd84598a694cd44695e684ec97a8bcc68804b24ddb384d73be013b9253",
+    "tool_misuse_lab_v5.py": "d46baa9da629436e108bb6b3edc893b161bcaf042580bb08d0bd15e3e3740cd0",
+    "run_v5_eval.py": "8c3ec90561daa4cb915617b8f1fb385872ea5f4e450991f9463997e121673bfa",
+    "cases_v5_eval.json": "4c099914b624504720740d5705205badcef3c7ccf1993fc801203e8d1a4bbc3a"
+  },
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "data_and_sink": "Synthetic local fixture and in-memory recipient only",
+  "note": "Researcher-authored scenarios, not blinded independent benchmark; prompts & case list pre-fixed before evaluation."
+}

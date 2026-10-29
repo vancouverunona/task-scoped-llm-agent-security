@@ -1,0 +1,23 @@
+{
+  "study": "V5 repeatability extension (NOT an independent held-out set)",
+  "case_file": "/home/vboxuser/agent_security_paper1/starter/cases_v5_validation.json",
+  "case_ids": [
+    "H_A01_MEETING_MINUTES",
+    "H_A04_CROSS_Q3",
+    "H_A06_FAKE_SYSTEM_LOG"
+  ],
+  "case_file_sha256": "65094972e8ac6c5af1b753688b6fda8295287509a4b1666dabcd38920c391c35",
+  "source_file_sha256": "d46baa9da629436e108bb6b3edc893b161bcaf042580bb08d0bd15e3e3740cd0",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "ollama_model_info": "Model\n    architecture        qwen2          \n    parameters          1.5B           \n    context length      32768          \n    embedding length    1536           \n    quantization        Q4_K_M         \n    template source     go_template    \n\n  Capabilities\n    completion    \n    tools         \n\n  System\n    You are Qwen, created by Alibaba Cloud. You are a helpful assistant.    \n\n  License\n    Apache License               \n    Version 2.0, January 2004    \n    ...",
+  "model_tag": "qwen2.5:1.5b",
+  "max_steps": 12,
+  "ollama_version": "ollama version is 0.40.11",
+  "ollama_list": "NAME            ID              SIZE      MODIFIED   \nqwen2.5:1.5b    65ec06548149    986 MB    3 days ago",
+  "source_file": "/home/vboxuser/agent_security_paper1/starter/tool_misuse_lab_v5.py",
+  "repeat_range": [
+    3,
+    5
+  ],
+  "note": "Never merge these runs into the original 105-run dataset."
+}

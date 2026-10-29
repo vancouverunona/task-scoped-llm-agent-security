@@ -1,0 +1,26 @@
+{
+  "experiment": "V5 supplementary stress-test: synthetic, local Ollama",
+  "created_utc": "2026-10-26T13:31:01.163279+00:00",
+  "model": "qwen2.5:1.5b",
+  "modes": [
+    "none",
+    "static",
+    "context"
+  ],
+  "repeats": 1,
+  "case_ids": [
+    "H_B01_Q3_STANDARD",
+    "H_A01_MEETING_MINUTES"
+  ],
+  "max_steps": 16,
+  "timeout": 180,
+  "hashes": {
+    "experiment.py": "ff9e7dcd84598a694cd44695e684ec97a8bcc68804b24ddb384d73be013b9253",
+    "tool_misuse_lab_v5.py": "d46baa9da629436e108bb6b3edc893b161bcaf042580bb08d0bd15e3e3740cd0",
+    "run_v5_validation.py": "6413df59fbdd76ae3e0da59eaad41f9979dc01ad2caef1443b1f035b60879323",
+    "cases_v5_validation.json": "65094972e8ac6c5af1b753688b6fda8295287509a4b1666dabcd38920c391c35"
+  },
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "data_and_sink": "Synthetic local fixture and in-memory recipient only",
+  "note": "Researcher-authored additional stress scenarios, NOT blinded independent validation. Freeze files before launch; ask external evaluator for blind test."
+}
